@@ -1,6 +1,7 @@
 <h2>Code description</h2>
 
 <h3>This code is a Go program designed to scrape news articles from a specific website (www.globo.com) and store the collected information in both a JSON file and a MySQL database. Here's a brief explanation of its main components and functionality:</h3>
+<h3>This code serves as an **educational** example to demonstrate various important concepts in web scraping, data storage, and database operations using Go.</h3>
 
 <h4>1. Imports and Struct Definition:</h4>
 
@@ -23,9 +24,11 @@
 
 <h4>5. Data Storage:</h4>
 
-   <p>- The collected news articles are stored in two ways:
-     a. Appended to a JSON file named "news.json".
-     b. Inserted into a MySQL database table named "mynews".</p>
+   <p>- The collected news articles are stored in two ways:</p>
+     <ul>
+     <li>a. Appended to a JSON file named "news.json".<li>
+     <li>b. Inserted into a MySQL database table named "mynews".</li>
+    </ul>
 
 <h4>6. Duplicate Prevention:</h4>
 
